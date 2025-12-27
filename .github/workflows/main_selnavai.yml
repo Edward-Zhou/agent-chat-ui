@@ -8,7 +8,10 @@ on:
     branches:
       - main
   workflow_dispatch:
-
+# 👇 Add permissions here
+permissions:
+  id-token: write     # required for OIDC login
+  contents: read      # allows checkout of the repo
 jobs:
   build:
     runs-on: ubuntu-latest
