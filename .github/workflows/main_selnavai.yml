@@ -81,4 +81,5 @@ jobs:
         with:
           app-name: 'selnavai'
           slot-name: 'Production'
-          package: ./webapp/webapp.zip
+          package: webapp.zip
+
